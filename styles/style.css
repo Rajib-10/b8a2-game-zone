@@ -199,8 +199,8 @@ header{
 .online-game-play-button{
     text-align: center;
     position: absolute;
-    left: 46px;
-    top: 85px;
+    left: 45px;
+    top: 86px;
 }
 .online-game-play-button .fa-circle-play {
     color: white;
@@ -439,10 +439,10 @@ footer small{
     {
         font-size: 1rem;
     }
-    .online-game-play-button{
+    /* .online-game-play-button{
         left: 30%;
         top: 50%;
-    }
+    } */
     .play-game-img{
         margin-bottom: 10px;
         text-align: center;
