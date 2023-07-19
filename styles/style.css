@@ -78,8 +78,6 @@ header{
     background-repeat: no-repeat;
     background-size: 55%;
     margin-bottom: 100px;
-   
-
 }
 .banner-content{
     width: 50%;
@@ -207,7 +205,6 @@ header{
     background-blend-mode: overlay;
 
 }
-
     /* online game section style end here  */
 
     /* play game section style start here  */
@@ -359,7 +356,6 @@ footer small{
     font-size: 1rem;
     font-weight: 500;
 }
-
          /* footer section style end here  */
 
 
@@ -476,12 +472,10 @@ footer small{
         width: 30px;
         object-fit: cover;
     }
-    
-   
-
     }
 
     /* mobile responsive style end here  */
+
 
     /* table responsive style start here  */
 
@@ -557,5 +551,6 @@ footer small{
         left: 46%;
         top: 60%;
     }
-   
 }
+
+/* table responsive style end here  */
