@@ -175,8 +175,6 @@ header{
     margin-bottom: 30px;
 }
 
-        /* online game section style end here  */
-
 .online-game-container{
     margin-left: 150px;
     margin-right: 150px;
@@ -448,7 +446,7 @@ footer small{
         text-align: center;
     }
     .online-game-play-button{
-        left:450%;
+        left:45%;
         top: 50%;
     }
   
@@ -493,3 +491,82 @@ footer small{
    
 
     }
+
+    /* mobile responsive style end here  */
+
+    /* table responsive style start here  */
+
+@media screen and (min-width: 576px) and (max-width: 992px) {
+    header ,
+    .play-game-container
+    {
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    .nav-container ,
+    .banner-container ,
+    .online-game-card ,
+    .online-game-container ,
+    .play-game-container
+    {
+        flex-direction: column;
+        gap: 20px;
+    }
+    .banner-container{
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .banner-content ,
+    .banner-img{
+        width: 100%;
+    }
+    .banner-content{
+        text-align: center;
+    }
+    .online-game-card{
+        text-align: center;
+        width: 100%;
+    }
+    .online-game-card img ,
+    .play-game-content ,
+    .play-game-img
+    {
+        width: 100%;
+        /* object-fit: cover; */
+    }
+    .play-game-content{
+        margin-left: 0;
+        text-align: center;
+        margin-top: 200px;
+    }
+    .button-container {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-row-gap: 10px;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    .play-game-container{
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    .play-game-img img{
+        width: 80%;
+    }
+    .small-img img{
+        width: 400px;
+        height: 450px;
+        object-fit: cover;
+        left: 55%;
+        top: 60%;
+    }
+    .online-game-container{
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    .online-game-play-button{
+        left: 46%;
+        top: 60%;
+    }
+   
+}
